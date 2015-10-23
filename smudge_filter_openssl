@@ -1,6 +1,6 @@
 #!/bin/bash
 
-./.credentials
+`pwd`/.credentials
 
 # If decryption fails, use `cat` instead.
 # Error messages are redirected to /dev/null.
