@@ -1,0 +1,6 @@
+#!/bin/bash
+
+# load the credentials
+./.credentials
+
+openssl enc -base64 -aes-256-ecb -S $GIT_ENCRYPT_SALT_FIXED -k $GIT_ENCRYPT_PASS_FIXED
