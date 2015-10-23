@@ -1,6 +1,9 @@
 #!/bin/bash
 
-# load the credentials
-`pwd`/.credentials
+# Load the credentials
+DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
+. $DIR/.credentials
+
+echo "running command"
 
 openssl enc -base64 -aes-256-ecb -S $GIT_ENCRYPT_SALT_FIXED -k $GIT_ENCRYPT_PASS_FIXED

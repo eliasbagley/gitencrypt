@@ -1,6 +1,7 @@
 #!/bin/bash
 
-`pwd`/.credentials
+DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
+. $DIR/.credentials
 
 # If decryption fails, use `cat` instead.
 # Error messages are redirected to /dev/null.
