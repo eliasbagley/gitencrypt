@@ -22,7 +22,7 @@ Run `~/.gitencrypt/setup.sh`
 
 This appends the filter config information into the .gitattributes files and the .git/config files.
 
-## Setting up the repo in a directory or another machine
+## Setting up the repo in a different directory or a different machine
 
 If you later clone your encrypted to a new location, you will have to repeat step 3. to setup the filters again, and run `git reset HEAD --hard` to force the smudge filter to decrypt the first time. After that you can use the git repo as normal.
 
