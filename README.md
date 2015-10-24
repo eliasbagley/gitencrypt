@@ -24,6 +24,6 @@ This appends the filter config information into the .gitattributes files and the
 
 ## Setting up the repo in a directory or another machine
 
-If you later clone this repo to a new location, you will have to repeat step 3. to setup the filters again, and run `git reset HEAD --hard` to force the smudge filter to decrypt the first time. After that you can use the git repo as normal.
+If you later clone your encrypted to a new location, you will have to repeat step 3. to setup the filters again, and run `git reset HEAD --hard` to force the smudge filter to decrypt the first time. After that you can use the git repo as normal.
 
 If you clone the repo onto a new machine, you will need to repeat the instructions from step 1, <b> but instead of running `./create_credentials.sh`, you must copy your old .credentials file from the other machine where it is set up. </b>
