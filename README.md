@@ -4,7 +4,7 @@ These scripts set up a git repository to transparently encrypt the contents. A g
 
 ##1. Clone the repo into ~/.gitencrypt
 
-Run `cd && git clone git@github.com:eliasbagley/gitencrypt.git && cd .gitencrypt` in the terminal
+Run `cd ~ && git clone git@github.com:eliasbagley/gitencrypt.git && cd .gitencrypt` in the terminal
 
 ##2. Generate the encryption password
 
